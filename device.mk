@@ -55,10 +55,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm845
-
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION = 4.0
